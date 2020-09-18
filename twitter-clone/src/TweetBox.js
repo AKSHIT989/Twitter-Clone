@@ -11,12 +11,12 @@ function TweetBox() {
     e.preventDefault();
 
     db.collection("posts").add({
-      displayName: "Akshit Soneji",
-      username: "akshit_soneji",
-      verified: true,
+      displayName: "Anonymous",
+      username: "random_anonymous",
+      verified: false,
       text: tweetMessage,
       image: tweetImage,
-      avatar: "https://miro.medium.com/fit/c/336/336/0*E74AXbhapJqqDf9V",
+      avatar: "https://www.w3schools.com/w3images/avatar2.png",
     });
 
     setTweetMessage("");
@@ -27,7 +27,7 @@ function TweetBox() {
     <div className="tweetBox">
       <form>
         <div className="tweetBox__input">
-          <Avatar src="https://miro.medium.com/fit/c/336/336/0*E74AXbhapJqqDf9V" />
+          <Avatar src="https://www.w3schools.com/w3images/avatar2.png" />
           <input
             onChange={(e) => setTweetMessage(e.target.value)}
             value={tweetMessage}

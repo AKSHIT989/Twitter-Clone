@@ -1,6 +1,7 @@
 Deployed check it on: https://twitter-clone-3e3bc.web.app/
 
 Screenhots:
+![Screenshot](ss1.png)
 
 How to clone this project?
 1) make sure you have react and npm installed

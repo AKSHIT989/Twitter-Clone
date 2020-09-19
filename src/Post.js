@@ -6,6 +6,18 @@ import RepeatIcon from "@material-ui/icons/Repeat";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import PublishIcon from "@material-ui/icons/Publish";
 import "./Post.css";
+{
+  /*Akshit Soneji */
+}
+{
+  /*Akshit Soneji */
+}
+{
+  /*Akshit Soneji */
+}
+{
+  /*Akshit Soneji */
+}
 
 const Post = forwardRef(
   ({ displayName, username, verified, text, image, avatar }, ref) => {

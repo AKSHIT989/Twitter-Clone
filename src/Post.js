@@ -15,6 +15,10 @@ import "./Post.css";
 {
   /*Akshit Soneji */
 }
+{
+  /*Akshit Soneji */
+}
+
 const Post = forwardRef(
   ({ displayName, username, verified, text, image, avatar }, ref) => {
     return (
